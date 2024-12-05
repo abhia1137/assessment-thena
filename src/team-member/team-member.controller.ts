@@ -7,7 +7,7 @@ import {
   Patch,
   Post,
 } from '@nestjs/common';
-import { TeamMember } from 'src/team-member.schema';
+import { TeamMember } from '../team-member.schema';
 import { TeamMemberService } from './team-member.service';
 
 @Controller('team-members')
